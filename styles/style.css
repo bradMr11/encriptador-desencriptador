@@ -55,7 +55,7 @@ body{
     border-radius: 5px;
     resize: none;
     padding: 2%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     box-shadow: 15px 15px 20px #cf854b;
     background-color: var(--color-terciario);
     color: var(--color-primario);
@@ -140,6 +140,7 @@ body{
     font-family: var(--fuente-primaria);
     font-size: 1.5rem;
     font-weight: 400;
+    margin-top: 30px;
 }
 
 /* Media query para tablets */
