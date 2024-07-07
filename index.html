@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img class="icono"  src="assets/logo.png" alt="Logo"></a>
+    </header>
+    <main class="main">
+            <section class="main__seccion__1">
+                <textarea id="texto" class="main__seccion__textare"  placeholder="Escribe tu texto aquí..."></textarea>
+                <div class="leyenda">
+                    <p >solo minusculas y sin acentos</p>
+
+                </div>
+                <section class="buttons">
+                    <button onclick="encriptar()" id="encriptar" class="boton boton__encriptar">Encriptar</button>
+                    <button onclick="desencriptar()" id="Desencriptar" class="boton boton__desencriptar">Desencriptar</button>
+                </section>
+            </section>
+            <section class="main__seccion__2">
+                <output id="salida" class="salida"></output>
+                
+                <button onclick="copiar()" id="copiar" class="button__copiar boton" disabled>Copiar</button>
+            </section>
+    </main>
+    <footer class="footer">Encriptador Desarrollado por: Briyan A. Mendez Rossillon</footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
