@@ -114,7 +114,7 @@ body{
 }
 
 .salida{
-    margin-top: 20px;
+    
     padding: 2%;
     width: 90%;
     height: 86%;
@@ -124,6 +124,8 @@ body{
     color: var(--color-primario);
     font-family: var(--fuente-primaria);
     margin-bottom: 20px;
+    resize: none;
+    
 }
 
 .button__copiar{
@@ -169,7 +171,7 @@ body{
 
     .main__seccion__textare, .salida{
         width: 100%;
-        height: 70vh; /* Ajuste aquí */
+        height: 60vh; 
     }
 
     .salida{
@@ -184,7 +186,7 @@ body{
         margin-top: 10px;
         color: #000000;
         cursor: pointer;
-        width: 130px; /* Ajuste el ancho si es necesario */
+        width: 130px; 
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -206,7 +208,7 @@ body{
 
     .main__seccion__1, .main__seccion__2{
         width: 100%;
-        height: 85vh; /* Ajuste aquí */
+        height: 85vh; 
         align-items: center;
     }
     .main__seccion__textare{
@@ -219,7 +221,7 @@ body{
 
     .main__seccion__textare, .salida{
         width: 90%;
-        height: 85vh; /* Ajuste aquí */
+        height: 85vh;
     }
 
     .salida{
